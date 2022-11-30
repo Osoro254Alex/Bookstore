@@ -14,7 +14,7 @@ const booksReducer = (state = initialState, action) => {
     case types.ADDED_BOOK:
       return {
         ...state,
-        books: [...state, action.newBook],
+        books: [...state, action.payload],
       };
     case types.REMOVED_BOOK:
       return {
