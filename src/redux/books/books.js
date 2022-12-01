@@ -1,12 +1,18 @@
 import types from '../types/types';
 // initial state
 const initialState = {
-  books: [],
+  numberOfBooks: '3',
+  books: [
+
+    { id: '1', title: 'Life of a Footballer', author: 'Beckham' },
+    { id: '2', title: 'The Blog Life', author: 'Maxwell' },
+    { id: '3', title: 'Secret of A Long Life', author: 'Wu-Zing' },
+  ],
 };
 // Actions Creators
-export const addBook = (newBook) => ({ type: types.ADDED_BOOK, newBook });
+export const addingBook = (addedBook) => ({ type: types.ADDED_BOOK, addedBook });
 
-export const removeBook = (id) => ({ type: types.REMOVED_BOOK, id });
+export const removingBook = (id) => ({ type: types.REMOVED_BOOK, id });
 
 // Reducers Creator
 const booksReducer = (state = initialState, action) => {
@@ -14,12 +20,14 @@ const booksReducer = (state = initialState, action) => {
     case types.ADDED_BOOK:
       return {
         ...state,
-        books: [...state, action.payload],
+        numberOfBooks: state.numberOfBooks + 1,
+        books: [...state.books, action.addedBook],
       };
     case types.REMOVED_BOOK:
       return {
+        numberOfBooks: state.numberOfBooks - 1,
         ...state,
-        books: [...state.filter((book) => book.id !== action.payload.id)],
+        books: [...state.books.filter((book) => book.id !== action.id)],
       };
     default:
       return state;

@@ -14,7 +14,7 @@ const CategoriesReducer = (state = initialState, action) => {
     case types.BOOK_STATUS_CHECK:
       return {
         ...state,
-        categories: [...state.categories, 'Under Construction'],
+        categories: [...state.categories, 'UNDER_CONSTRUCTION'],
       };
     default:
       return state;
