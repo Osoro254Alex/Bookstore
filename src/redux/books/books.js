@@ -4,9 +4,9 @@ const initialState = {
   numberOfBooks: '3',
   books: [
 
-    { id: '1', title: 'Life of a Footballer', author: 'Beckham' },
-    { id: '2', title: 'The Blog Life', author: 'Maxwell' },
-    { id: '3', title: 'Secret of A Long Life', author: 'Wu-Zing' },
+    { id: '01', title: 'Life of a Footballer', author: 'Beckham' },
+    { id: '02', title: 'The Blog Life', author: 'Maxwell' },
+    { id: '03', title: 'Secret of A Long Life', author: 'Wu-Zing' },
   ],
 };
 // Actions Creators
