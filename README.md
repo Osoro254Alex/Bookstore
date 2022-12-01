@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  ![](https://img.shields.io/badge/Microverse-blueviolet)
   <br/>
 
   <h3><b>README Template</b></h3>
