@@ -118,7 +118,7 @@ After you're finished please remove all the comments and instructions!
 
 - On the terminal run this command git clone https://github.com/Osoro254Alex/Bookstore
 
-- Go to the repository folder using command prompt cd Mobile-Portfolio-Setup-Repo.
+- Go to the repository folder using command prompt cd Bookstore.
 
 - Install the dev dependencies for linters run npm install.
 
