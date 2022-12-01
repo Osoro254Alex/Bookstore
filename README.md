@@ -67,11 +67,8 @@ After you're finished please remove all the comments and instructions!
 
 
 - HTML
-29
 - CSS
-30
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-31
 - [React and Redux]((https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/webpack_v1_1.md))
 
 <details>
