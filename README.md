@@ -188,15 +188,10 @@ Example:
 
 
 ## 🚀 **About Me**
-78
-​
-79
+
 I'm full stack software developer, Computer science, and Microverse student.
-80
-​
-81
 **Stack:** JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
-82
+
 
 <!-- CONTRIBUTING -->
 
