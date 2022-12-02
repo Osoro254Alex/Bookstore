@@ -1,0 +1,44 @@
+.nav_cont {
+  width: 100%;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  gap: 2.5rem;
+  padding: 0 2.8rem;
+}
+
+h1 {
+  align-items: center;
+  color: #2C94F0;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  letter-spacing: .05rem;
+}
+
+ul {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.small_cont {
+  list-style-type: none;
+  font-size: 0.8rem;
+  letter-spacing: .2rem;
+}
+
+.link {
+text-decoration: none;
+color: #b7b7b8;
+}
+
+.link:focus {
+  color: #3a3a3b;
+}
+
+.link:hover {
+  color: #3a3a3b;
+}

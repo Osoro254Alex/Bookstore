@@ -1,0 +1,11 @@
+.main_cont {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  padding: 2.8rem;
+  border: 2px;
+  }
+
+.min_cont {
+  background-color: lawngreen;
+}
