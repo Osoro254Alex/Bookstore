@@ -19,7 +19,8 @@
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "react-hooks/exhaustive-deps": "off"
   },
   "ignorePatterns": [
     "dist/",
