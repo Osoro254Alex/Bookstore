@@ -1,11 +1,6 @@
 .main_cont {
-  background-color: red;
+  background-color: #ebe7e7;
   width: 100%;
-  height: 100vh;
   padding: 2.8rem;
   border: 2px;
-  }
-
-.min_cont {
-  background-color: lawngreen;
 }

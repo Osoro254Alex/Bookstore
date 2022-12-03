@@ -18,6 +18,11 @@ const Navbar = () => (
           </Link>
         </li>
       </ul>
+      <div className={styles.user}>
+        <div className={styles.user_min}>
+          <i className="fa-solid fa-user user" />
+        </div>
+      </div>
     </nav>
   </div>
 );

@@ -5,8 +5,10 @@ import styles from './Books.module.css';
 
 const Books = () => (
   <div className={styles.big_cont}>
-    <DisplayBookList />
-    <AddBookForm />
+    <div className={styles.big_min_cont}>
+      <DisplayBookList />
+      <AddBookForm />
+    </div>
   </div>
 );
 

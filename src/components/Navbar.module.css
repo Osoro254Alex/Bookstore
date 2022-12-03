@@ -7,15 +7,16 @@ nav {
   display: flex;
   width: 100%;
   gap: 2.5rem;
-  padding: 0 2.8rem;
+  padding-left: 2.8rem;
+  align-items: center;
 }
 
 h1 {
   align-items: center;
-  color: #2C94F0;
+  color: #2c94f0;
   padding: 1.5rem 0;
   font-size: 1.8rem;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 ul {
@@ -27,12 +28,12 @@ ul {
 .small_cont {
   list-style-type: none;
   font-size: 0.8rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .link {
-text-decoration: none;
-color: #b7b7b8;
+  text-decoration: none;
+  color: #b7b7b8;
 }
 
 .link:focus {
@@ -41,4 +42,27 @@ color: #b7b7b8;
 
 .link:hover {
   color: #3a3a3b;
+}
+
+.user {
+  background-color: #fff;
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.user_min {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #c4c2c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user i {
+  font-size: 1.6rem;
+  color: #2c94f0;
 }
