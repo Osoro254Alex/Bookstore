@@ -115,6 +115,21 @@ ul {
     order: 0;
   }
 
+  .user_min {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #c4c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user i {
+    font-size: 1.3rem;
+    color: #2c94f0;
+  }
+
   .small_cont {
     list-style-type: none;
     font-size: 0.8rem;

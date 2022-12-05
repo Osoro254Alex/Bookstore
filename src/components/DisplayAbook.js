@@ -56,7 +56,7 @@ const DisplayAbook = (props) => {
                   <stop offset="100%" stopColor="#673ab7" />
                 </linearGradient>
               </defs>
-              <circle cx="42" cy="50" r="36" strokeLinecap="round" />
+              <circle className={styles.circle_rad} cx="42" cy="50" r="36" strokeLinecap="round" />
             </svg>
           </div>
           <div className={styles.circle_right}>
