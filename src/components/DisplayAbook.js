@@ -32,7 +32,8 @@ const DisplayAbook = (props) => {
           >
             Remove
           </button>
-          <button type="button" className={styles.butt}>
+
+          <button type="button" className={styles.butt_1}>
             Edit
           </button>
         </div>

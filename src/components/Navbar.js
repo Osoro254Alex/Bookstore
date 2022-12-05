@@ -6,7 +6,7 @@ const Navbar = () => (
   <div className={styles.nav_cont}>
     <nav>
       <h1>Bookstore CMS</h1>
-      <ul>
+      <ul className={styles.link_cont}>
         <li className={styles.small_cont}>
           <Link to="/" className={styles.link}>
             BOOKS

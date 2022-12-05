@@ -10,7 +10,6 @@ const initialState = {
 };
 
 export const gettingBooks = createAsyncThunk(
-
   'books/gettingBooks',
 
   async () => {
