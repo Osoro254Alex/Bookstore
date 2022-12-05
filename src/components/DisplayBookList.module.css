@@ -8,3 +8,17 @@
   gap: 1rem;
   width: 100%;
 }
+
+@media screen and (max-width: 769px) {
+  .books_cont {
+    background-color: #ddd9d9;
+    padding: 1.5rem 1rem;
+  }
+
+  .books_min_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+}
