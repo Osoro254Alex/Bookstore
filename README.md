@@ -182,7 +182,7 @@ Example:
 👤 **Alex Ogeto**
 
 - GitHub: [@alex_ogeto](https://github.com/Osoro254Alex)
-- LinkedIN:[@Osoro254Alex](https://www.linkedin.com/feed/)
+- LinkedIN:[@Osoro254Alex](https://www.linkedin.com/in/alexogeto/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
